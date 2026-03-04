@@ -16,4 +16,4 @@ for i in range(x):
             step -= 2
 
 for j in matrix:
-        print(*(str(k).ljust(3) for k in j))
+        print(*(str(k).ljust(2) for k in j))
