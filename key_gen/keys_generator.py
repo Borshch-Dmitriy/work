@@ -1,3 +1,4 @@
+#*****great your password*****
 import random
 
 print('Вас приветствует гениратор паролей')
