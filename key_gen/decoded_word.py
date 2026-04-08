@@ -1,4 +1,4 @@
-# decoded_word for stepik #
+## decoded_word for stepik ##
 
 pas, num = input(), int(input())
 dict_freq = {}
