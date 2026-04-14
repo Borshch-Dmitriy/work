@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 
-API_TOKEN = 'ВАШ_ТОКЕН_ЗДЕСЬ' # Замените 'ВАШ_ТОКЕН_ЗДЕСЬ' на токен от BotFather
+API_TOKEN = '8355977478:AAFIbzkym-ykdM3ymOhFKq6luyBI4BqM_SI' # Замените 'ВАШ_ТОКЕН_ЗДЕСЬ' на токен от BotFather
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
