@@ -1,21 +1,28 @@
 import random
 import string
+
 not_use = "lI1oO0"
-letters_digits = string.digits + string.ascii_letters
-new_letters_digits = [letter for letter in letters_digits if letter not in not_use]
-count, length = int(input()), int(input())
+
+digits = [c for c in string.digits if c not in not_use]
+up_letters = [c for c in string.ascii_uppercase if c not in not_use]
+low_letters = [c for c in string.ascii_lowercase if c not in not_use]
+all_chars = digits + up_letters + low_letters
 
 
 def generate_password(length):
-    password = random.sample(new_letters_digits, length)
-    return password
+    if length < 3:
+        return "Password length: >= 3"
 
-def generate_passwords(count, length):
-    result = []
-    for i in range(count):
-        result.append(generate_password(length))
-    return result
-result = generate_passwords(count, length)
+    pwd = [random.choice(digits), random.choice(up_letters), random.choice(low_letters)]
+    pwd += random.choices(all_chars, k=length - 3)
 
-for j in range(count):
-    print(*result[j], sep='')
+    random.shuffle(pwd)
+    return ''.join(pwd)
+
+count = int(input())
+length = int(input())
+if length < 3:
+    print("Error: Password length must be at least 3 chars.")
+else:
+    for _ in range(count):
+        print(generate_password(length))
