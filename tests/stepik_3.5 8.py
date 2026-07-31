@@ -1,3 +1,4 @@
+#The last in block
 from datetime import datetime, timedelta
 
 def choose_p(amount, declensions):
@@ -34,6 +35,7 @@ else:
             print(f"До выхода курса осталось: {h_str}")
         elif hours == 0 and minutes > 0:
             print(f"До выхода курса осталось: {m_str}")
+
 
 
 
