@@ -7,7 +7,7 @@ def get_biggest(numbers):
     # Переводим в строки
     str_numbers = [str(num) for num in numbers]
 
-    # Сортируем по нашей хитрой логике
+    # Сортируем
     str_numbers.sort(key=lambda x: x * 10, reverse=True)
 
     # Собираем итоговую строку
