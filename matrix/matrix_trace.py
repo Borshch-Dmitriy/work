@@ -1,4 +1,4 @@
-# find the trace of matrix(addition of all numbers in main diagonal) ij
+# find the trace of matrix(addition of all numbers in main diagonal)
 row = int(input())
 matrix = []
 result = 0
