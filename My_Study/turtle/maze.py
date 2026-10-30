@@ -1,3 +1,4 @@
+# Simple maze
 import turtle
 
 def star(side):
