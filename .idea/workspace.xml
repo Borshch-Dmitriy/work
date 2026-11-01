@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee1a3a7d-05ad-428e-81e5-8629881c8544" name="Changes" comment="Decorators">
+    <list default="true" id="ee1a3a7d-05ad-428e-81e5-8629881c8544" name="Changes" comment="Turtle rectangle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1793363943872</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Simple turtle maze">
+      <option name="closed" value="true" />
+      <created>1793365220278</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1793365220278</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Turtle rectangle">
+      <option name="closed" value="true" />
+      <created>1793365324921</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1793365324921</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +308,8 @@
     <MESSAGE value="My study on stepik" />
     <MESSAGE value="Walrus operator" />
     <MESSAGE value="Decorators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorators" />
+    <MESSAGE value="Simple turtle maze" />
+    <MESSAGE value="Turtle rectangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Turtle rectangle" />
   </component>
 </project>
