@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee1a3a7d-05ad-428e-81e5-8629881c8544" name="Changes" comment="Turtle rectangle">
+    <list default="true" id="ee1a3a7d-05ad-428e-81e5-8629881c8544" name="Changes" comment="datetime module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,12 +52,13 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmitr/PycharmProjects/work/Work&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dmitr/PycharmProjects/work/My_Study&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dmitr\PycharmProjects\work\My_Study" />
       <recent name="C:\Users\dmitr\PycharmProjects\work\Work" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -273,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793365324921</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="datetime module">
+      <option name="closed" value="true" />
+      <created>1793547432425</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1793547432425</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,6 +319,7 @@
     <MESSAGE value="Decorators" />
     <MESSAGE value="Simple turtle maze" />
     <MESSAGE value="Turtle rectangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Turtle rectangle" />
+    <MESSAGE value="datetime module" />
+    <option name="LAST_COMMIT_MESSAGE" value="datetime module" />
   </component>
 </project>
