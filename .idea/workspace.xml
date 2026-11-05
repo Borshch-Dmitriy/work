@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee1a3a7d-05ad-428e-81e5-8629881c8544" name="Changes" comment="Classes from stepik2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ee1a3a7d-05ad-428e-81e5-8629881c8544" name="Changes" comment="class Wordpay">
+      <change afterPath="$PROJECT_DIR$/My_Study/Classes/Classes6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1793802217379</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="class Postman">
+      <option name="closed" value="true" />
+      <created>1793897854026</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1793897854026</updated>
+    </task>
+    <task id="LOCAL-00029" summary="class Wordpay">
+      <option name="closed" value="true" />
+      <created>1793897961307</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1793897961307</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,8 +329,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="te" />
-    <MESSAGE value="lite - soup" />
     <MESSAGE value="lite - soup1" />
     <MESSAGE value="Проверка слова на сходство по гласным" />
     <MESSAGE value="сортировка через Unicode" />
@@ -338,6 +352,8 @@
     <MESSAGE value="datetime module" />
     <MESSAGE value="Classes from stepik" />
     <MESSAGE value="Classes from stepik2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes from stepik2" />
+    <MESSAGE value="class Postman" />
+    <MESSAGE value="class Wordpay" />
+    <option name="LAST_COMMIT_MESSAGE" value="class Wordpay" />
   </component>
 </project>
