@@ -1,0 +1,62 @@
+from itertools import groupby
+from collections import defaultdict
+
+
+class Grouper:
+    def __init__(self,iterable, key):
+        self.key = key
+        self.iterable = sorted(iterable, key=key)
+        self.res = defaultdict(list)
+        for k, g in groupby(self.iterable, key=key):
+            self.res[k].extend(g)
+    def __iter__(self):
+        return iter(self.res.items())
+
+    def __getitem__(self,key):
+        return self.res[key]
+
+    def __contains__(self,key):
+        return key in self.res
+
+    def __len__(self):
+        return len(self.res)
+
+    def add(self,value):
+        for k, g in groupby([value], key=self.key):
+            self.res[k].extend(g)
+    def group_for(self,value):
+        for k, g in groupby([value], key=self.key):
+            return k
+
+
+# INPUT DATA:
+
+# TEST_1:
+grouper = Grouper(['bee', 'geek', 'one', 'two', 'five', 'hi'], key=len)
+
+print(grouper[2])
+print(grouper[3])
+print(grouper[4])
+
+# TEST_2:
+grouper = Grouper(['bee', 'geek', 'one', 'two', 'five', 'hi'], key=len)
+
+print(3 in grouper)
+print('bee' in grouper)
+
+# TEST_3:
+grouper = Grouper(['hi'], key=lambda s: s[0])
+print(len(grouper))
+
+grouper.add('hello')
+grouper.add('bee')
+grouper.add('big')
+
+print(len(grouper))
+
+grouper.add('geek')
+print(grouper['h'])
+print(grouper['b'])
+print(grouper['g'])
+
+print(len(grouper))
